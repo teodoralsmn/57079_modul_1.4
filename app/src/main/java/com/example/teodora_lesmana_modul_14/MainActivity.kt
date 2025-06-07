@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.teodora_lesmana_modul_14.ui.theme.Teodora_lesmana_modul_14Theme
 import androidx.compose.ui.tooling.preview.PreviewParameter
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity(0) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
